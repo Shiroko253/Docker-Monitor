@@ -13,8 +13,8 @@ from typing import Dict, Optional
 from threading import Thread
 
 # ===== 配置區 =====
-WEBHOOK_URL = "https://discord.com/api/webhooks/1442076849889869836/PZTS1q3_HDKsjIOiXg8vGYQjxuSJwME0363T2HtRWjFPKRs7PzyId6Z8O1pe-1YT4QUm"
-MONITORED_CONTAINERS = ["main-bot", "reimu-bot", "flandre-bot"]
+WEBHOOK_URL = "WEBHOOK_URL"
+MONITORED_CONTAINERS = ["YOUR NEED TO WACHT CONTAINER"]
 NETWORK_CHECK_INTERVAL = 60
 NETWORK_THRESHOLD = 10 * 1024 * 1024
 RESTART_DETECTION_WINDOW = 5  # 重啟檢測窗口(秒)
